@@ -1,44 +1,37 @@
-const testresult = document.getElementById('resultsc');
-const resulttitle = document.getElementById('msg_title');
-const resulttext = document.getElementById('msg_content');
+const testResult = document.getElementById('resultsc');
+const resultTitle = document.getElementById('msg_title');
+const resultText = document.getElementById('msg_content');
+const startAgain = document.querySelector('.btn_startAgain');
+const form = document.querySelector('#registerForm');
+const banner = document.querySelector('#success');
 
-
-(function showpage (){
-    let list = localStorage.getItem('Pass');
-    parseInt(list);
-    console.log(typeof (list));
-    console.log(list);
+(function showPage (){
+    let list = localStorage.getItem('Pass') ;
+    console.log(list)
     if(parseInt(list) < 10){
-        const startagain = document.querySelector('.btn_stagain');
-        const form = document.querySelector('.registerform');
-        console.log('inside fails'+list); //test
-        startagain.addEventListener('click',function (){
+        startAgain.addEventListener('click',function (){
             window.location.href='index.html';
         },false);
-        testresult.innerHTML = `${((list / 12) * 100).toFixed(0)} %`;
-        resulttitle.innerHTML = 'Oops!';
-        resulttext.innerHTML = 'You need to try harder...';
+
+        testResult.innerHTML = `${((list / 12) * 100).toFixed(0)} %`;
+        resultTitle.innerHTML = 'Oops!';
+        resultText.innerHTML = 'You need to try harder...';
         form.style.display = 'none';
-        const banner = document.querySelector('.banner');
         banner.style.height = (window.innerHeight-155) + 'px';
-        banner.style.display ='flex';
-        banner.style.justifyContent ='center';
-        banner.style.alignItems = 'center';
         window.onresize= function (){
             document.querySelector('.banner').style.height = (window.innerHeight-155) + 'px';
         }
     }
     else if(parseInt(list) >= 10){
-        const formsend= document.querySelector('.btn_formsend');
-        const startagain = document.querySelector('.btn_stagain');
-        console.log('inside success'+list); //test
-        formsend.addEventListener('click',function (){
-            //check criteria
-        },false);
-        testresult.innerHTML = `${((list / 12) * 100).toFixed(0)} %`;
-        resulttitle.innerHTML = 'Congrat!';
-        resulttext.innerHTML = 'Please submit the following registration form.';
-        startagain.style.display = 'none';
+
+        testResult.innerHTML = `${((list / 12) * 100).toFixed(0)} %`;
+        resultTitle.innerHTML = 'Congrat!';
+        resultText.innerHTML = 'Please submit the following registration form.';
+        startAgain.style.display = 'none';
+    }
+    else{
+        alert("you need to take the test first");
+        window.location.href='index.html';
     }
 }());
 

@@ -43,8 +43,6 @@ function score(form) {
         if (form.twelve.value != null && form.twelve.value === "AxR06uNK5Bv") {
             list += 1;
         }
-        /*var result = ((list / 12) * 100).toFixed(0) + '%';
-        console.log(list, result);*/
 
     } else if (form.one.value != null && form.one.value === "nZPFYBfJVp2") {
         list = 0;
