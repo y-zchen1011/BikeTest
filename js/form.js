@@ -23,7 +23,6 @@ const banner = document.querySelector('#success');
         }
     }
     else if(parseInt(list) >= 10){
-
         testResult.innerHTML = `${((list / 12) * 100).toFixed(0)} %`;
         resultTitle.innerHTML = 'Congrat!';
         resultText.innerHTML = 'Please submit the following registration form.';
