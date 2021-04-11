@@ -7,7 +7,6 @@ const banner = document.querySelector('#success');
 
 (function showPage (){
     let list = localStorage.getItem('Pass') ;
-    console.log(list);
     if(parseInt(list) < 10){
         startAgain.addEventListener('click',function (){
             window.location.href='index.html';
