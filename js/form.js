@@ -41,10 +41,9 @@ function changePage(){
 let ans = localStorage.getItem('Ans');
 let userAnsArray = ans.split(",");
 let compareArray = [];
-console.log(userAnsArray);
+
 function dataConvert(userAnsArray){
  let standardAns = ["MHWfAnZhXHY","GV9wH0nTSHN","kP7VNhoYZxY","F2rbzLyIPru","rdN1I3azVec","SzCM1PTOVwz","XQWNvmyLtlc","JnEgwpxUY95","Zy91RPiMWUU","aMRmZMfOWyq","PGWjoITyJwK","AxR06uNK5Bv"];
- console.log(standardAns)
  for(let i = 0 ; i < standardAns.length ; i ++){
          if(standardAns[i] === userAnsArray[i]){
              compareArray.push(true);
@@ -71,4 +70,4 @@ function concatReview(compareArray){
     reviewTable.innerHTML = content;
 }
 concatReview(compareArray);
-console.log(compareArray)
+
