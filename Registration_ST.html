@@ -16,10 +16,22 @@
     <link href="Plugin_bootstrap/css/bootstrap.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
-
+    <link href="Plugin_fontawesome/css/all.css" rel="stylesheet">
     <link href="CSS/main.css" rel="stylesheet">
 
     <script src="js/jquery-3.5.0.js"></script>
+    <style>
+        #wrapper {
+            background: #ccc;
+            overflow: hidden;
+            transition: height 200ms;
+        }
+        #expand {
+            line-height: 1.5;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    </style>
 </head>
 
 <body>
@@ -41,6 +53,36 @@
     </div>
 </section>
 
+<section id="answerReview" class="container bg-light mx-auto text-center">
+    <div class="d-flex justify-content-around align-items-center">
+        <h3 class="">Review</h3>
+        <button class="btn btn-primary" id="expand">Expand/Collapse</button>
+    </div>
+    <div id="wrapper" class="open bg-light">
+        <table id="testReview" class="table">
+            <thead>
+                <tr>
+                    <th scope="col">1</th>
+                    <th scope="col">2</th>
+                    <th scope="col">3</th>
+                    <th scope="col">4</th>
+                    <th scope="col">5</th>
+                    <th scope="col">6</th>
+                    <th scope="col">7</th>
+                    <th scope="col">8</th>
+                    <th scope="col">9</th>
+                    <th scope="col">10</th>
+                    <th scope="col">11</th>
+                    <th scope="col">12</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="reviewTable">
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
 
 <section id="registerForm" class="mt-5 bg-light">
     <div class="container">
@@ -160,6 +202,28 @@
 <script src="js/form.js"></script>
 <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+
+<script>
+    $(function() {
+        var b = $("#expand");
+        var w = $("#wrapper");
+        var l = $("#testReview");
+
+        w.height(l.outerHeight(true));
+
+        b.click(function(e) {
+            e.preventDefault();
+            if(w.hasClass('open')) {
+                w.removeClass('open');
+                w.height(0);
+            } else {
+                w.addClass('open');
+                w.height(l.outerHeight(true));
+            }
+
+        });
+    });
 </script>
 
 
