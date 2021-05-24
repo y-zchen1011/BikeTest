@@ -16,6 +16,7 @@
     <link href="Plugin_bootstrap/css/bootstrap.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link href="Plugin_fontawesome/css/all.css" rel="stylesheet">
     <link href="CSS/main.css" rel="stylesheet">
 
@@ -250,7 +251,32 @@
             firstName = initCapital(firstName);
             lastName = initCapital(lastName);
             if (ValidateEmail(email)) {
-                msgRef.ref('/Member/' + firstName + '_' + lastName).set({
+                axios.post("https://cieebikeapi.herokuapp.com/api/member",{
+                    firstname: firstName,
+                    lastname: lastName,
+                    roomnumber: roomNr,
+                    emailaddress: email,
+                    stay: stay,
+                }).then(()=>{
+                    let templateParams = {
+                        title: 'Welcome letter',
+                        msg: 'You can now go to the reception and rent out your bike!',
+                        Name: firstName,
+                        mailadress: email
+                    };
+
+                    (function sendMail() {
+                        emailjs.send('service_3dk0adg', 'template_k6y7q2b', templateParams)
+                            .then(function (response) {
+                                console.log('SUCCESS!', response.status, response.text);
+                            }, function (error) {
+                                console.log('FAILED...', error);
+                            });
+                    })();
+                }).catch(function () {
+                    alert('Error, please try again');
+                });
+                /*msgRef.ref('/Member/' + firstName + '_' + lastName).set({
                     firstname: firstName,
                     lastname: lastName,
                     roomnumber: roomNr,
@@ -281,7 +307,7 @@
                     }))
                     .catch(function () {
                         alert('Error, please try again');
-                    });
+                    });*/
             } else {
                 alert("You have entered an invalid email address!");
             }
