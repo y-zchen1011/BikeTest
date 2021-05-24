@@ -224,15 +224,6 @@
 </script>
 
 <script>
-    let config = {
-        apiKey: "AIzaSyBgNHmBw53QL51_4J-JP54PyWEF7fR-NUk",
-        authDomain: "https://cieebikeservice.firebaseio.com/",
-        databaseURL: "https://cieebikeservice.firebaseio.com/",
-        storageBucket: "cieebikeservice.appspot.com",
-        projectId: "cieebikeservice",
-    };
-    firebase.initializeApp(config);
-    let msgRef = firebase.database();
     const formSubmit = document.querySelector('#formSubmit');
     formSubmit.addEventListener('click', function (e) {
         let firstName = document.querySelector('#inlineFormInputfirstName').value.trim();
@@ -278,38 +269,6 @@
                 }).catch(function () {
                     alert('Error, please try again');
                 });
-                /*msgRef.ref('/Member/' + firstName + '_' + lastName).set({
-                    firstname: firstName,
-                    lastname: lastName,
-                    roomnumber: roomNr,
-                    emailaddress: email,
-                    stay: stay,
-                    hasbike: false,
-                    bikeout: "",
-                })
-                    .then(msgRef.ref('/Member/').once('child_added', function () {
-                        let templateParams = {
-                            title: 'Welcome letter',
-                            msg: 'You can now go to the reception and rent out your bike!',
-                            Name: firstName,
-                            mailadress: email
-                        };
-
-                        (function sendMail() {
-                            emailjs.send('service_3dk0adg', 'template_k6y7q2b', templateParams)
-                                .then(function (response) {
-                                    console.log('SUCCESS!', response.status, response.text);
-                                }, function (error) {
-                                    console.log('FAILED...', error);
-                                });
-                        })();
-
-                        alert('success!');
-                        window.location.href = 'EndPage.html';
-                    }))
-                    .catch(function () {
-                        alert('Error, please try again');
-                    });*/
             } else {
                 alert("You have entered an invalid email address!");
             }

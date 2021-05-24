@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="776cd564-4ea3-4b3a-b905-5a47071a1eae" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/brands.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/brands.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/fontawesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/fontawesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/regular.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/regular.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/solid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/solid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/svg-with-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/svg-with-js.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/v4-shims.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/v4-shims.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration_ST.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registration_ST.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +76,28 @@
       <option name="project" value="LOCAL" />
       <updated>1621864651563</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <created>1621871860814</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621871860814</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit">
+      <created>1621871954002</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621871954002</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit">
+      <created>1621872104562</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621872104562</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
