@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="776cd564-4ea3-4b3a-b905-5a47071a1eae" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/brands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/brands.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/fontawesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/regular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/regular.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/solid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/solid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/svg-with-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/svg-with-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/v4-shims.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/css/v4-shims.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugin_fontawesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="ProjectId" id="1lyKj0FeydJorWUxLexz87dpGav" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Test/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce649532-31f3-4970-a43c-232cae8ecc06" name="Default Changelist" comment="" />
+      <created>1608564022317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608564022317</updated>
+      <workItem from="1608564023560" duration="671000" />
+      <workItem from="1609050502297" duration="3533000" />
+      <workItem from="1609055229779" duration="2096000" />
+      <workItem from="1609152482580" duration="8000" />
+      <workItem from="1609316929808" duration="614000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1621864485099</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621864485099</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit">
+      <created>1621864651563</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621864651563</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+</project>
