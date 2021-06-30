@@ -218,9 +218,9 @@
 
 
 <script>
-   /* (function () {
+    (function () {
         emailjs.init("user_bLcS7SbZdTLTMgGDlu4HP");
-    })();*/
+    })();
 </script>
 
 <script>
@@ -255,19 +255,19 @@
                         Name: firstName,
                         mailadress: email
                     };
-                    axios.post("https://cieebikeapi.herokuapp.com/api/email/welcome",templateParams)
+                    /*axios.post("https://cieebikeapi.herokuapp.com/api/email/welcome",templateParams)
                     .then(()=>{
-                        alert('success!');
-                    })
-                    /*(function sendMail() {
+
+                    })*/
+                    (function sendMail() {
                         emailjs.send('service_3dk0adg', 'template_k6y7q2b', templateParams)
                             .then(function (response) {
                                 console.log('SUCCESS!', response.status, response.text);
                             }, function (error) {
                                 console.log('FAILED...', error);
                             });
-                    })();*/
-
+                    })();
+                    alert('success!');
                     window.location.href = 'EndPage.html';
                 }).catch(function () {
                     alert('Error, please try again');
