@@ -19,7 +19,7 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link href="Plugin_fontawesome/css/all.css" rel="stylesheet">
     <link href="CSS/main.css" rel="stylesheet">
-
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="js/jquery-3.5.0.js"></script>
 
 </head>
@@ -218,9 +218,9 @@
 
 
 <script>
-    (function () {
+   /* (function () {
         emailjs.init("user_bLcS7SbZdTLTMgGDlu4HP");
-    })();
+    })();*/
 </script>
 
 <script>
@@ -255,16 +255,19 @@
                         Name: firstName,
                         mailadress: email
                     };
-
-                    (function sendMail() {
+                    axios.post("https://cieebikeapi.herokuapp.com/api/email/welcome",templateParams)
+                    .then(()=>{
+                        alert('success!');
+                    })
+                    /*(function sendMail() {
                         emailjs.send('service_3dk0adg', 'template_k6y7q2b', templateParams)
                             .then(function (response) {
                                 console.log('SUCCESS!', response.status, response.text);
                             }, function (error) {
                                 console.log('FAILED...', error);
                             });
-                    })();
-                    alert('success!');
+                    })();*/
+
                     window.location.href = 'EndPage.html';
                 }).catch(function () {
                     alert('Error, please try again');
@@ -289,6 +292,8 @@
             return (true);
         }
     }
+
+
 </script>
 
 
