@@ -255,23 +255,32 @@
                         Name: firstName,
                         mailadress: email
                     };
-                    /*axios.post("https://cieebikeapi.herokuapp.com/api/email/welcome",templateParams)
-                    .then(()=>{
-
-                    })*/
-                    (function sendMail() {
-                        emailjs.send('service_3dk0adg', 'template_k6y7q2b', templateParams)
-                            .then(function (response) {
+                    emailjs.send('service_3dk0adg', 'template_k6y7q2b', templateParams)
+                            .then((response)=>{
+                                console.log("Using Primary Email Server");
                                 console.log('SUCCESS!', response.status, response.text);
-                            }, function (error) {
-                                console.log('FAILED...', error);
+                            })
+                            .then(()=>{
+                                alert('Registration success!');
+                                window.location.href = 'EndPage.html';
+                            })
+                            .catch((err)=>{
+                                console.log('FAILED... ', err);
                                 console.log('Using back-up Email Server...');
                                 axios.post("https://cieemail.herokuapp.com/send/info", templateParams)
-                                    .then((res)=>{console.log(res.config.data)});
-                            });
-                    })();
-                    alert('success!');
-                    window.location.href = 'EndPage.html';
+                                    .then((res)=>{
+                                        console.log('Using back-up Email Server is successful');
+                                        console.log(res.config.data);
+                                    })
+                                    .then(()=>{
+                                        alert('Registration success!');
+                                        window.location.href = 'EndPage.html';
+                                    })
+                                    .catch((err)=>{
+                                        console.log("Both Email Servers are down. ", err);
+                                        alert("Sorry, Our Email Server are down. You won't get a Email but your registration was successful!")
+                                    })
+                            })
                 }).catch(function () {
                     alert('Error, please try again');
                 });

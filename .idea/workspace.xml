@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="776cd564-4ea3-4b3a-b905-5a47071a1eae" name="Default Changelist" comment="commit" />
+    <list default="true" id="776cd564-4ea3-4b3a-b905-5a47071a1eae" name="Default Changelist" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration_ST.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registration_ST.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/grading.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/grading.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +75,8 @@
       <workItem from="1628245895826" duration="466000" />
       <workItem from="1628760990971" duration="83000" />
       <workItem from="1628777811511" duration="124000" />
+      <workItem from="1628785207340" duration="72000" />
+      <workItem from="1628935113037" duration="1544000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1621864485099</created>
@@ -135,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628777925895</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit">
+      <created>1628785270746</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1628785270746</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

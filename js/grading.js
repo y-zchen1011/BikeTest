@@ -57,7 +57,7 @@ function score(form) {
             list += 1;
             answerArray.push("AxR06uNK5Bv");
         }else{answerArray.push(form.twelve.value);}
-
+        nextPage();
     } else if (form.one.value != null && form.one.value === "nZPFYBfJVp2") {
         list = 0;
         alert("You must agree to the terms and conditions!");
@@ -65,8 +65,6 @@ function score(form) {
     localStorage.setItem('Pass', list);
     localStorage.setItem('Ans', answerArray);
 
-
-    nextPage();
 }
 
 function nextPage(){
