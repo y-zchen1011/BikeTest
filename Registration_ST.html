@@ -212,6 +212,17 @@
 </script>
 
 <script>
+
+    let config = {
+        apiKey: "AIzaSyBgNHmBw53QL51_4J-JP54PyWEF7fR-NUk",
+        authDomain: "https://cieebikeservice.firebaseio.com/",
+        databaseURL: "https://cieebikeservice.firebaseio.com/",
+        storageBucket: "cieebikeservice.appspot.com",
+        projectId: "cieebikeservice",
+    };
+    firebase.initializeApp(config);
+    var msgRef = firebase.database();
+
     $(function() {
         var b = $("#expand");
         var w = $("#wrapper");
@@ -286,6 +297,20 @@
                     roomnumber: roomNr,
                     emailaddress: email,
                     stay: stay,
+                }).catch((err)=>{
+                    console.log("Error, Using Back-up Server ", err);
+                    msgRef.ref('/Member/'+firstName+'_'+lastName).set({
+                        firstname: firstName,
+                        lastname : lastName,
+                        roomnumber: roomNr,
+                        emailaddress: email,
+                        stay:stay,
+                        hasbike :false,
+                    }).then(()=>{
+                        msgRef.ref('/Member/').once('child_added',function (){
+                            console.log('Back up Server updated success')
+                        })
+                    });
                 }).then(()=>{
                     let templateParams = {
                         title: 'Welcome letter',

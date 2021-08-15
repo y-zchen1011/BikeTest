@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="776cd564-4ea3-4b3a-b905-5a47071a1eae" name="Default Changelist" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EndPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/EndPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Registration_ST.html" beforeDir="false" afterPath="$PROJECT_DIR$/Registration_ST.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/grading.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/grading.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <workItem from="1628785207340" duration="72000" />
       <workItem from="1628935113037" duration="1643000" />
       <workItem from="1629017966893" duration="2814000" />
-      <workItem from="1629027064945" duration="908000" />
+      <workItem from="1629027064945" duration="1617000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1621864485099</created>
@@ -171,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629020631780</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commit">
+      <created>1629028068013</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1629028068013</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
