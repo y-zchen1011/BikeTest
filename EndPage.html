@@ -49,6 +49,14 @@
     document.querySelector('.banner').style.height = (window.innerHeight-155) + 'px';
     window.onresize= function (){
         document.querySelector('.banner').style.height = (window.innerHeight-155) + 'px';
-    }
+    };
+    (function(){
+        let list = localStorage.getItem('Pass');
+        if(parseInt(list) < 10 || list === ""){
+            alert("you need to take the test first");
+            window.location.href='index.html';
+        }
+        localStorage.setItem('Pass', "");
+    }())
 </script>
 </html>

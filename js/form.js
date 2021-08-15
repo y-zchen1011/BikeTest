@@ -11,7 +11,6 @@ const banner = document.querySelector('#success');
         startAgain.addEventListener('click',function (){
             window.location.href='index.html';
         },false);
-
         testResult.innerHTML = `${((list / 12) * 100).toFixed(0)} %`;
         resultTitle.innerHTML = 'Oops!';
         resultText.innerHTML = 'You need to try harder...';
@@ -20,6 +19,7 @@ const banner = document.querySelector('#success');
         window.onresize= function (){
             document.querySelector('.banner').style.height = (window.innerHeight-155) + 'px';
         }
+        localStorage.setItem('Pass', "");
     }
     else if(parseInt(list) >= 10){
         testResult.innerHTML = `${((list / 12) * 100).toFixed(0)} %`;
@@ -30,6 +30,7 @@ const banner = document.querySelector('#success');
     else{
         alert("you need to take the test first");
         window.location.href='index.html';
+        localStorage.setItem('Pass', "");
     }
 }());
 
